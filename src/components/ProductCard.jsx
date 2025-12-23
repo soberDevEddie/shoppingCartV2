@@ -1,4 +1,4 @@
-const ProductCard = () => {
+const ProductCard = ({product}) => {
   return (
     <div className='bg-white rounded-lg shadow p-4 flex flex-col'>
       <img
